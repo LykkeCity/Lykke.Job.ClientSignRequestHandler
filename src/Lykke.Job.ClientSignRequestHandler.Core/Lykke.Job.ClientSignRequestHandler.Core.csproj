@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lykke.Common" Version="1.1.79" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Lykke.AzureStorage">
+      <HintPath>C:\Users\krya\.nuget\packages\lykke.azurestorage\1.2.24\lib\netstandard1.6\Lykke.AzureStorage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
